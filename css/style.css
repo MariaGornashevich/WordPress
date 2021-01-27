@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
   width: 1140px;
   margin: 0 auto;
@@ -23,7 +27,6 @@
 
 .logo .logo_text {
   color: #ffffff;
-  font-family: "Roboto";
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
@@ -36,7 +39,6 @@ h1 {
 }
 
 .title {
-  font-family: "Roboto";
   font-weight: 900;
   font-size: 41px;
   line-height: 24px;
@@ -50,7 +52,6 @@ h2.title {
 }
 
 .simple .title_big {
-  font-family: "Roboto";
   font-weight: 900;
   font-size: 80px;
   text-align: center;
@@ -62,7 +63,6 @@ h2.title {
 .promo .promo_text {
   padding: 0 13px;
   margin-top: 23px;
-  font-family: "Roboto Light";
   font-weight: 300;
   font-size: 21px;
   line-height: 28px;
@@ -71,7 +71,6 @@ h2.title {
 }
 
 .promo .promo_text span {
-  font-family: "Roboto - Bold";
   font-weight: 700;
   color: #f9bf3b;
 }
@@ -361,10 +360,10 @@ h2.title {
   color: #888888;
 }
 
-.footer .footer_link{
+.footer .footer_link {
   color: #888888;
 }
 
-.footer .footer_line{
+.footer .footer_line {
   color: #888888;
 }
